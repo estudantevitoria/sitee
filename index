@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas de Dança</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Loja de Dança" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h1>Bem-vindo à Loja de Roupas de Dança!</h1>
+        <p>Encontre roupas de dança para todas as modalidades e estilos.</p>
+        <img src="images/banner.jpg" alt="Imagem de dança" class="banner-img">
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos em Destaque</h2>
+        <div class="product-gallery">
+            <div class="product-item">
+                <img src="images/roupa1.jpg" alt="Roupas de balé" />
+                <p>Roupas de Balé</p>
+                <p>R$120,00</p>
+            </div>
+            <div class="product-item">
+                <img src="images/roupa2.jpg" alt="Roupa de hip hop" />
+                <p>Roupa de Hip Hop</p>
+                <p>R$150,00</p>
+            </div>
+            <div class="product-item">
+                <img src="images/roupa3.jpg" alt="Roupa de salsa" />
+                <p>Roupa de Salsa</p>
+                <p>R$130,00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre a Loja</h2>
+        <p>Somos uma loja especializada em roupas de dança para todos os estilos: balé, hip hop, salsa, dança de salão e muito mais. Trabalhamos com os melhores fornecedores para garantir qualidade, conforto e estilo para os dançarinos.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Email: loja@roupasdanca.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Loja de Roupas de Dança - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
