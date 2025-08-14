@@ -1,0 +1,133 @@
+/* Resetando o estilo do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fonte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Banner */
+.banner {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+}
+
+/* Galeria de Produtos */
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 30%;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item p {
+    margin-top: 10px;
+}
+
+/* Contato e Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+Imagens Usadas:
+Logo: images/logo.png - A imagem do logo da loja.
+
+Banner: images/banner.jpg - A imagem que aparece no banner principal.
+
+Produtos:
+
+images/roupa1.jpg - Roupas de balé.
+
+images/roupa2.jpg - Roupa de hip hop.
+
+images/roupa3.jpg - Roupa de salsa.
+
+Informações sobre a Loja:
+Nome da Loja:
+Loja de Roupas de Dança
+
+Descrição da Loja:
+A Loja de Roupas de Dança oferece roupas de alta qualidade para dançarinos de todas as idades e estilos. Nossos produtos incluem roupas para balé, hip hop, salsa, dança de salão e muito mais. Trabalhamos com as melhores marcas para garantir conforto e estilo durante as apresentações.
+
+Produtos:
+Roupas de Balé: Leves e confortáveis, ideais para ensaios e apresentações.
+
+Roupas de Hip Hop: Estilo urbano e moderno, para dançarinos de rua.
+
+Roupas de Salsa: Elegantes e sensuais, perfeitas para dançar salsa com conforto.
+
+Informações de Contato:
+E-mail: loja@roupasdanca.com
+
+Telefone: (11) 1234-5678
+
+Endereço: Rua da Dança, 100, São Paulo, SP.
